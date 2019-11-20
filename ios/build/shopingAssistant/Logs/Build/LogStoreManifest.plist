@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>3456C6DA-B9F0-4961-8D95-1729EBBABC74</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3456C6DA-B9F0-4961-8D95-1729EBBABC74.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>shopingAssistant project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>shopingAssistant</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace shopingAssistant with scheme shopingAssistant and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>595631656.34825003</real>
+			<key>timeStoppedRecording</key>
+			<real>595631657.90911305</real>
+			<key>title</key>
+			<string>Building workspace shopingAssistant with scheme shopingAssistant and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>3456C6DA-B9F0-4961-8D95-1729EBBABC74</string>
+		</dict>
+		<key>3CA85A31-B734-49DE-880D-1E782B0FCAE8</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3CA85A31-B734-49DE-880D-1E782B0FCAE8.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>shopingAssistant project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>shopingAssistant</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace shopingAssistant with scheme shopingAssistant and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>595631808.01838195</real>
+			<key>timeStoppedRecording</key>
+			<real>595631817.95130706</real>
+			<key>title</key>
+			<string>Building workspace shopingAssistant with scheme shopingAssistant and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>3CA85A31-B734-49DE-880D-1E782B0FCAE8</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

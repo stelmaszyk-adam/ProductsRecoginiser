@@ -1,0 +1,148 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.shopingassistant"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:5:5-70
+13-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:5:22-68
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:6:5-65
+14-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:7:5-80
+15-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:7:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:8:5-81
+16-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:8:22-78
+17    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+17-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:9:5-70
+17-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:9:22-68
+18    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" /> <!-- Required to access Google Play Licensing -->
+18-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:10:5-88
+18-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:10:22-85
+19    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+19-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+19-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+20    <!--
+21         Required to keep CPU alive while downloading files
+22        (NOT to keep screen awake)
+23    -->
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+24-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-65
+25    <!--
+26         Required to poll the state of the network connection
+27        and respond to changes
+28    -->
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to check whether Wi-Fi is enabled -->
+29-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-79
+29-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-76
+30    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+30-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-76
+30-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:22-73
+31
+32    <uses-feature
+32-->[:react-native-camera] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+33        android:name="android.hardware.camera"
+33-->[:react-native-camera] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:12:9-47
+34        android:required="false" />
+34-->[:react-native-camera] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:13:9-33
+35    <uses-feature
+35-->[:react-native-camera] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+36        android:name="android.hardware.camera.autofocus"
+36-->[:react-native-camera] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:15:9-57
+37        android:required="false" />
+37-->[:react-native-camera] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalDebug/AndroidManifest.xml:16:9-33
+38
+39    <application
+39-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:13:5-31:19
+40        android:name="com.shopingassistant.MainApplication"
+40-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:14:7-38
+41        android:allowBackup="false"
+41-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:18:7-34
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.1.0] /Users/adamstelmaszyk/.gradle/caches/transforms-2/files-2.1/e5d67c6405473111c32ff094a9041a45/core-1.1.0/AndroidManifest.xml:24:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+44-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:16:7-41
+45        android:label="@string/app_name"
+45-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:15:7-39
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:17:7-52
+47        android:theme="@style/AppTheme"
+47-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:19:7-38
+48        android:usesCleartextTraffic="true" >
+48-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/debug/AndroidManifest.xml:13:18-53
+49        <activity
+49-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:20:7-29:18
+50            android:name="com.shopingassistant.MainActivity"
+50-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:21:9-37
+51            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+51-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:23:9-79
+52            android:label="@string/app_name"
+52-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:22:9-41
+53            android:windowSoftInputMode="adjustResize" >
+53-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:24:9-51
+54            <intent-filter>
+54-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:25:9-28:25
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:26:13-65
+55-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:26:21-62
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:27:13-73
+57-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:27:23-70
+58            </intent-filter>
+59        </activity>
+60        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+60-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:30:7-84
+60-->/Users/adamstelmaszyk/shopingAssistant/mobileApp/android/app/src/main/AndroidManifest.xml:30:17-81
+61
+62        <provider
+62-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+63            android:name="com.RNFetchBlob.Utils.FileProvider"
+63-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+64            android:authorities="com.shopingassistant.provider"
+64-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+65            android:exported="false"
+65-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+66            android:grantUriPermissions="true" >
+66-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+67            <meta-data
+67-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:41:13-43:58
+68                android:name="android.support.FILE_PROVIDER_PATHS"
+68-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:42:17-67
+69                android:resource="@xml/provider_paths" />
+69-->[:rn-fetch-blob] /Users/adamstelmaszyk/shopingAssistant/mobileApp/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:17-55
+70        </provider>
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:16.0.1] /Users/adamstelmaszyk/.gradle/caches/transforms-2/files-2.1/ce36166ecc5add2ceaa0ccaee018cb2f/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:16.0.1] /Users/adamstelmaszyk/.gradle/caches/transforms-2/files-2.1/ce36166ecc5add2ceaa0ccaee018cb2f/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:16.0.1] /Users/adamstelmaszyk/.gradle/caches/transforms-2/files-2.1/ce36166ecc5add2ceaa0ccaee018cb2f/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:16.0.1] /Users/adamstelmaszyk/.gradle/caches/transforms-2/files-2.1/ce36166ecc5add2ceaa0ccaee018cb2f/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:16.1.0] /Users/adamstelmaszyk/.gradle/caches/transforms-2/files-2.1/6e9ab36011ba10d8c98f7b1087adfbc3/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:16.1.0] /Users/adamstelmaszyk/.gradle/caches/transforms-2/files-2.1/6e9ab36011ba10d8c98f7b1087adfbc3/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:16.1.0] /Users/adamstelmaszyk/.gradle/caches/transforms-2/files-2.1/6e9ab36011ba10d8c98f7b1087adfbc3/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+80    </application>
+81
+82</manifest>
