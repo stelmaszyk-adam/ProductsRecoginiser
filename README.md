@@ -1,4 +1,4 @@
-The application will help recognise objects. It is frontend of mobile app. The links to backend was delated.
+ProductRecogniser :mag_right: :calling:  The application will help recognise objects. It is frontend of mobile app. The links to backend was delated.
 
 The app was written for IOS and Android systems.
 
