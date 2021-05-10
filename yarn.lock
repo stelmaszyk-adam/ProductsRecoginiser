@@ -4079,9 +4079,9 @@ lodash.unescape@4.0.1:
   integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
 
 lodash@^4.17.10, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -5220,7 +5220,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.3"
 
-prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.6.0, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5355,10 +5355,22 @@ react-native-screens@^2.0.0-alpha.11:
   dependencies:
     debounce "^1.2.0"
 
+react-native-tts@^3.0.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-tts/-/react-native-tts-3.3.0.tgz#563e5a2ecc35bca9e66e05e020ad8dce9432b253"
+  integrity sha512-ebPMDrMYYlh/A7MI0qUWgWFpORYuGJ/u6acOLclZC56CD5dv3IUI+sQKQEX4nFZTaXkGMdibX4uqtBjpGHWhaA==
+
 react-native-voice@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/react-native-voice/-/react-native-voice-0.3.0.tgz#2ca3ff8f8f6fc6d087e10b6d3ecd50af8e01a166"
   integrity sha512-puSrXCNn1MM03UZkY8q+GW931OqBCEBCiupNK4vD8i49esGqRDDmzv8sRYyEgXj5ScVDKe6lnlKCmJSn5Wo2UA==
+
+react-native-volume-control@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-volume-control/-/react-native-volume-control-1.0.1.tgz#b080750dbd89a0dd736e409238531e1819cde95c"
+  integrity sha512-LbFD6AoFltkYxFQEn5SlZsdHGtY4x/A7kkh6CJuzSWjyJMvNDNLTXiQ8YnSVTGiio/qhhWLXXfOMOothxo/16Q==
+  dependencies:
+    prop-types "^15.6.0"
 
 react-native@0.61.4:
   version "0.61.4"
